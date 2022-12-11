@@ -1,0 +1,32 @@
+.question_main{
+    display: flex;
+    padding: 128px 0;
+}
+.question_head{
+    width: 35%;
+    padding-right: 100px;
+}
+.question_head h2{
+    font-weight: 600;
+    font-size: 38px;
+    padding-bottom: 16px;
+    color: #282938
+}
+.question_head a{
+    color: rgba(37, 5, 242, 0.87);
+    font-weight: 500;
+    font-size: 18px;
+}
+.question_part{
+    width: 65%;
+}
+.question_titel{
+    display: flex;
+    font-size: 24px;
+    font-weight: 500;
+    /* /* align-items: center; */
+}
+.question_titel .question_num{
+    padding-right: 59px;
+    color: #2405F2;
+}

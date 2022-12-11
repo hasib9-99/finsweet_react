@@ -5,6 +5,7 @@ import Work from './componats/work/Work.js';
 import Project from './componats/project/Project'
 import Features from './componats/features/Features.js';
 import About from './componats/About/About';
+import Question from './componats/question/Question.js';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
     <Project/>
     <Features/>
     <About/>
+    <Question/>
     </>
   );
 }
