@@ -2,7 +2,8 @@ import './App.css';
 import Navbar from './componats/navbar/Navbar.js';
 import Banner from './componats/banner/Banner.js';
 import Work from './componats/work/Work.js';
-import Project from './componats/project.js/Project.js';
+import Project from './componats/project/Project'
+import Features from './componats/features/Features.js';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
     <Banner/>
     <Work/>
     <Project/>
+    <Features/>
 
     </>
   );
