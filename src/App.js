@@ -1,11 +1,13 @@
 import './App.css';
-import Navbar from './componats/navbar/Navbar.js';
-import Banner from './componats/banner/Banner.js';
-import Work from './componats/work/Work.js';
+import Navbar from './componats/navbar/Navbar';
+import Banner from './componats/banner/Banner';
+import Work from './componats/work/Work';
 import Project from './componats/project/Project'
-import Features from './componats/features/Features.js';
+import Features from './componats/features/Features';
 import About from './componats/About/About';
-import Question from './componats/question/Question.js';
+import Question from './componats/question/Question';
+import Building from './componats/building/Building';
+import Blog from './componats/blog/Blog';
 
 function App() {
   return (
@@ -17,6 +19,9 @@ function App() {
     <Features/>
     <About/>
     <Question/>
+    <Building/>
+    <Blog/>
+    
     </>
   );
 }

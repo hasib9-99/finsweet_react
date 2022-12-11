@@ -1,0 +1,31 @@
+.blogs{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 32px;
+    height: 609px;
+    margin-bottom: 128px;
+}
+.blogs_titel{
+    color: #282938;
+    font-weight: 600;
+    font-size: 48px;
+    margin-bottom: 64px;
+}
+.blog img{
+    width: 100%;
+}
+.blog p{
+    color: #282938b3;
+    margin: 40px 0 6px 0;
+}
+.blog h4{
+    color: #282938  ;
+    margin: 6px 0;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+}
+.blog a{
+    color: #282938;
+    margin-top: 26px;
+}

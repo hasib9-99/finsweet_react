@@ -1,0 +1,102 @@
+.building_main{
+    display: flex;
+}
+.building_banner{
+    height: 691px;
+    margin-bottom: 128px ;
+    position: relative;
+}
+
+.building_banner img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bulding_form{
+    width: 50%;
+    height: 691px;
+    background-color: #1C1E53;
+}
+.bulding_form p{
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    width: 432px;
+    margin: auto;
+    margin-bottom: 34px;
+}
+
+.bulding_form h2{
+    margin: 96px 0 16px 84px;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 32px;
+    color: white;
+}
+.bulding_form form{
+    width: 432px;
+    margin: auto;
+}
+.bulding_form form input{
+    display: block;
+    width: 100%;
+    height: 64px;
+    background-color: transparent;
+    margin: 6px 0;
+    border: 1.5px solid rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+}
+.bulding_form form input::placeholder{
+    padding-left: 32px;
+    color: rgba(244, 246, 252, 0.5);
+}
+.bulding_form form .submit_btn{
+    display: block;
+    text-align: center;
+    padding: 16px;
+    background-color: #FCD980;
+    color: #1B1C2B;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 41px;
+    margin-top: 39px;
+}
+.form_link{
+    margin: 28px 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+}
+.building_overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    background-color: rgba(28, 30, 83, 0.5);
+    width: 100%;
+    height: 0%;
+    opacity: 0;
+}
+.building_main:hover .building_overlay{
+    height: 100%;
+    opacity: 1;
+    transition: 0.5s;
+}
+.building_inner{
+    width: 464px;
+    height: 334px;
+    margin: 96px;
+
+}
+.building_inner h2{
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 74px;
+}
+.building_inner p{
+    font-weight: 500;
+    line-height: 28px;
+}
