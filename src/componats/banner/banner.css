@@ -1,0 +1,33 @@
+.banner{
+    background-color: #1C1E53;
+    padding: 200px 0;
+}
+.banner_main{
+    display: flex;
+    justify-content: space-between;
+    padding: 218 160 128 160;
+}
+.banner_texr{
+    width: 582px;
+    color: white;
+}
+.banner_texr h2{
+    font-size: 54px;
+    font-weight: 600;
+}
+
+.banner_btn ul {
+    margin-top: 79px;
+    display: flex;
+    align-items: center;  
+}
+.banner_btn ul li a{
+    color: white;
+}
+.banner_btn ul li .btn{
+    padding: 16px 56px;
+    color: black;
+    margin-right: 40px;
+    background-color: #FCD980;
+    border-radius: 41px;
+}

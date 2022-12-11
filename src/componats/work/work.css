@@ -1,0 +1,36 @@
+.work{
+    background-color: #F4F6FC;
+}
+.work_main{
+    display: flex;
+    height: 660px;
+}
+.work_left{
+    width: 40%;
+    margin-top: 128px;
+}
+.work_left a{
+    color: #2405F2;
+}
+.work_left h2{
+    font-weight: 600;
+    font-size: 48px;
+}
+.work_left p{
+    padding-bottom: 16px;
+    color: #282938 ;
+    opacity: 0.7; 
+}
+.work_right{
+    width: 60%;
+    display: grid;
+    column-gap: 25px;
+    row-gap: 39px;
+    grid-template-columns: auto auto;
+    padding: 128px;
+}
+.grid_item p{
+    padding: 10px 0;
+    color: #282938;
+    opacity: 0.7;
+}
