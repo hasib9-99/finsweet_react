@@ -8,6 +8,7 @@ import About from './componats/About/About';
 import Question from './componats/question/Question';
 import Building from './componats/building/Building';
 import Blog from './componats/blog/Blog';
+import Footer from './componats/footer/Footer';
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
     <Question/>
     <Building/>
     <Blog/>
-    
+    <Footer/>
+
     </>
   );
 }
