@@ -4,6 +4,7 @@ import Banner from './componats/banner/Banner.js';
 import Work from './componats/work/Work.js';
 import Project from './componats/project/Project'
 import Features from './componats/features/Features.js';
+import About from './componats/About/About';
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
     <Work/>
     <Project/>
     <Features/>
-
+    <About/>
     </>
   );
 }
