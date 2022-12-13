@@ -1,0 +1,64 @@
+.working_main{
+    margin-top: 128px;
+}
+.working_main h2{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: #282938;
+    text-align: center;
+    margin: 0 auto;
+    width: 630px;
+}
+.working_cards{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 48px 0;
+    column-gap: 32px;
+}
+.working_card{
+    background-color: #F4F6FC;
+    padding: 50px;
+}
+.working_card h4{
+    font-weight: 500;
+    font-size: 24px;
+    color: #282938;
+    margin: 26px 0 12px 0;
+}
+.working_card p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(40, 41, 56, 0.7);
+}
+
+/* working logo part start  */
+.working_nav{
+    display: flex;
+    align-items: center;
+    margin-top: 48px;
+    margin-bottom: 128px;
+    
+}
+.count{
+    width: 20%;
+}
+.count h2{
+    font-weight: 600;
+    font-size: 38px;
+    color: #282938;
+}
+.count p{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(40, 41, 56, 0.7);
+}
+.working_logo{
+    width: 80%; 
+}
+.working_logo ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
