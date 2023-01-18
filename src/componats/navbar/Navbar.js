@@ -10,13 +10,13 @@ function Navbar() {
             </div>
             <div className="menu">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about_us.html">About us</a></li>
-                    <li><a href="features.html">Features</a></li>
-                    <li><a href="pricing.html">Pricing</a></li>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a className="btn" href="contact.html">Contact us</a></li>
+                    <li> <a href="/">Home</a></li>
+                    <li> <a href="/about">About us</a></li>
+                    <li> <a href="features">Features</a></li>
+                    <li> <a href="pricing">Pricing</a></li>
+                    <li> <a href="#">FAQ</a></li>
+                    <li> <a href="blog">Blog</a></li>
+                    <li> <a className="btn" href="contact">Contact us</a></li>
                 </ul>
             </div>
         </div>
