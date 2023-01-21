@@ -1,8 +1,8 @@
 import React from 'react'
-import "./benefits.css"
+import './benefits.css'
 const Benefits = () => {
   return (
-    <section ClassName="working">
+    <div ClassName="working">
         <div ClassName="container working_main">
             <h2>The benefits of working with us</h2>
             <div ClassName="working_cards">
@@ -24,7 +24,7 @@ const Benefits = () => {
 
             </div>
         </div>
-    </section>
+    </div>
   )
 }
 
