@@ -2,7 +2,8 @@ import React from 'react'
 import Navbar from '../componats/navbar/Navbar'
 import Banner from '../componats/Features_banner/banner'
 import Working from '../componats/Working/Working'
-import Benefits from '../componats/Benefits/Benefits'
+import Client from '../componats/Client/Client'
+import Footer from '../componats/footer/Footer'
 
 const Features = () => {
   return (
@@ -10,7 +11,9 @@ const Features = () => {
         <Navbar/>
         <Banner/>
         <Working/>
-        <Benefits/>
+        <Client/>
+        <Footer/>
+
     </>
   )
 }

@@ -1,0 +1,41 @@
+.flex_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 0;
+}
+
+.flex_hade{
+    width: 595px;
+}
+.flex_hade .topic{
+    color: #282938;
+    font-weight: 500;
+    font-size: 18px;
+    padding-bottom: 16px;
+}
+.flex_hade h2{
+    font-weight: 600;
+    font-size: 38px;
+    color: #282938;
+    padding-bottom: 31px;
+}
+.flex_titel{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938cc;
+}
+.flex_img{
+    width: 547px;
+}
+.flex_img img{
+    width: 547px;
+}
+#revision{
+    background-color: #F4F6FC;
+}
+#delivery{
+    background-color: rgba(252, 217, 128, 0.1);
+}
