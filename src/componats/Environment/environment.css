@@ -1,0 +1,16 @@
+.environment_main{
+    margin: 128px 0;
+    text-align: center; 
+}
+.environment_main h2{
+    color: #282938;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    
+}
+.environment_main P{
+    color:  rgba(40, 41, 56, 0.7);    
+    width: 831px;
+    margin: 32px auto;
+}
