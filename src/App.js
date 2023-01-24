@@ -4,6 +4,7 @@ import About from './pages/About';
 import Features from './pages/Features';
 import Pricing from './pages/Pricing';
 import Blogs from './pages/Blogs';
+import ContactPage from './pages/ContactPage';
 import { Routes, Route } from "react-router-dom";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Route path="/features" element={<Features/>}/>
       <Route path="/pricing" element={<Pricing/>}/>
       <Route path="/blog" element={<Blogs/>}/>
+      <Route path="/contactPage" element={<ContactPage/>}/>
     </Routes>
 
     </>

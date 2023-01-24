@@ -16,7 +16,7 @@ function Navbar() {
                     <li> <a href="/pricing">Pricing</a></li>
                     <li> <a href="/faq">FAQ</a></li>
                     <li> <a href="/blog">Blog</a></li>
-                    <li> <a className="btn" href="/contact">Contact us</a></li>
+                    <li> <a className="btn" href="/contactPage">Contact us</a></li>
                 </ul>
             </div>
         </div>
